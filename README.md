@@ -1,27 +1,18 @@
 # AgeOfEmpiresTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
+Esta es la prueba realizada para el cargo de desarrollador Full Stack para AV VILLAS
 
-## Development server
+## Despliegue
+-Clonar el repositorio a local.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+-Ejecutar en la carpeta del proyecto el comando 'npm install'.
 
-## Code scaffolding
+-Ejecutar el comando 'ng serve' para correr la aplicación.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-Abrir navegador Chrome con seguridad desactivada. Por ejemplo "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --disable-gpu --user-data-dir=~/chromeTemp
+la primera ruta varia dependiendo de su instalacion de chrome.
 
-## Build
+-Ingresar a la direccion localhost:4200
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
