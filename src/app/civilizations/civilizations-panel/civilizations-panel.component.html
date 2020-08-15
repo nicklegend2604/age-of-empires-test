@@ -1,0 +1,16 @@
+<div class="main-container">
+  <h1 class = "title">Civilizations</h1>
+  <div fxLayout="row" fxLayout.xs="column" class="content">
+    <div fxFlex>
+      <ul class="hexagon-grid-container">
+        <li *ngFor="let civilization of civilizations" class="hexagon hexagon-green">
+          <div class="hexagon-inner">
+            <span class="hexagon-name">{{civilization.name}}</span>
+            <span class="hexagon-metric-label">{{civilization.expansion}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div fxFlex></div>
+  </div>
+</div>

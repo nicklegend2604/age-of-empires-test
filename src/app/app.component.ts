@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { CivilizationsService } from './civilizations/civilizations.service';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'age-of-empires-test';
+
+  constructor() { }
+
 }

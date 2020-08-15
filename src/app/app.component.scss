@@ -1,0 +1,48 @@
+@import '../theme.scss';
+
+.micHeader .micHeader-logo {
+  width: 20rem;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+
+.video-container {
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.video-container .video-bcg {
+  width: inherit;
+  height: inherit;
+  -o-filter: blur(5px);
+  filter: blur(5px);
+  object-fit: cover;
+  transform: scale(1.04);
+}
+
+.video-container .overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-container .overlay-desc .aoe-logo{
+  width: 25rem;
+  margin-top: 40vh;
+}
+
+
+.video-container .overlay-desc .nicolas-title {
+  color: $col-accent;
+  font-family: 'aoe-font', sans-serif;
+  font-size: 5vw;
+  text-align: center;
+  margin-top: 10vh;
+}
